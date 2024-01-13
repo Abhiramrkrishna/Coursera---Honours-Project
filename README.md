@@ -1,6 +1,6 @@
 # Regression Model in Keras to predict the Compressive Strength of Cement
 
-A. Build a baseline model (5 marks) 
+## A. Build a baseline model (5 marks) 
 
 Use the Keras library to build a neural network with the following:
 
