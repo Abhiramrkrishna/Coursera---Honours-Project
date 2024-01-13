@@ -8,9 +8,7 @@ Use the Keras library to build a neural network with the following:
 
 - Use the adam optimizer and the mean squared error  as the loss function.
 
-1. Randomly split the data into a training and test sets by holding 30% of the data for testing. You can use the 
-train_test_split
-helper function from Scikit-learn.
+1. Randomly split the data into a training and test sets by holding 30% of the data for testing. You can use the train_test_split helper function from Scikit-learn.
 
 2. Train the model on the training data using 50 epochs.
 
@@ -21,21 +19,24 @@ helper function from Scikit-learn.
 5. Report the mean and the standard deviation of the mean squared errors.
 
 
-B. Normalize the data (5 marks) 
+
+## B. Normalize the data (5 marks) 
 
 Repeat Part A but use a normalized version of the data. Recall that one way to normalize the data is by subtracting the mean from the individual predictors and dividing by the standard deviation.
 
 How does the mean of the mean squared errors compare to that from Step A?
 
 
-C. Increase the number of epochs (5 marks)
+
+## C. Increase the number of epochs (5 marks)
 
 Repeat Part B but use 100 epochs this time for training.
 
 How does the mean of the mean squared errors compare to that from Step B?
 
 
-D. Increase the number of hidden layers (5 marks)
+
+## D. Increase the number of hidden layers (5 marks)
 
 Repeat part B but use a neural network with the following instead:
 
